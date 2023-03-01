@@ -1,0 +1,16 @@
+HOW TO ADD SSH:
+
+cd /home/alex/.ssh/
+
+ssh-keygen -t ed25519 -C "thesuicide93@gmail.com"
+
+enter filename: github
+
+passphrase can be null
+
+ssh-agent bash
+
+ssh-add github (from /home/alex/.ssh)
+
+
+
