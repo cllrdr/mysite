@@ -1,4 +1,5 @@
-HOW TO ADD SSH:
+=====================================================
+[HOW TO ADD SSH]
 
 cd /home/alex/.ssh/
 
@@ -12,5 +13,15 @@ ssh-agent bash
 
 ssh-add github (from /home/alex/.ssh)
 
+=======================================================
+[PULL REPO FROM GITHUB]
 
+mkdir mysite; cd mysite
 
+git init
+
+git remote add mysite https://github.com/cllrdr/mysite.git
+
+git pull master
+
+========================================================
